@@ -1,0 +1,37 @@
+Matrix
+bra-ket notation
+inner product
+<0|0> = 1
+outer product
+|0><0|
+1 0
+0 0
+의 matrix가 됨
+(n,m 성분이 1이 된다고 보면 됨)
+|n><m| : n, m 성분이 1이 되는 matrix
+
+unitary matrix
+transpose : 대각성분을 중심으로 거울 대칭
+complex conjugate : matrix의 성분을 complex의 conjugate 숫자로 바꿔치기 하기
+hermitian conjugate matrix : transpose + complex conjugate
+
+matrix의 dagger가 matrix자체의 reverse matrix일 때
+즉 matrix와 hermitian conjugate matrix의 곱이 Identity matrix가 되면
+unitary matrix라고 함
+
+hermitian matrix : hermitian conjugate matrix를 처리했을 때 원본 matrix와 같을 경우
+X,Y,Z, H 등의 gate의 matrix: hermitian matrix
+
+
+unitary matrix, hermiation matrix는 diagonalizable이 가능
+
+그리고 이 matrix의 eigen value는 모두 real number로 나오게 됨
+
+U = e^iH
+
+
+pauli decomposition
+
+pauli matrix의 tensor product
+
+quantum computer에서 활용되는 operator의 matrix들은 기본적으로 unitary matrix : raw, column 숫자가 매우 큰 단위
